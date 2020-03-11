@@ -40,3 +40,7 @@ Gallery.prototype.render = function () {
   })
 
 
+
+  need an array of unique key words
+  use that array to generate the drop down list
+  when the user selects a name, filter the images that are displayed.
