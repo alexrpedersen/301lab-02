@@ -1,0 +1,12 @@
+/* 1) Base (font rules, box sizing/border box; doesn't necessarily include colors or background colors; may include reset.css file)
+ - background color
+ - body/main
+ - overall font
+ - margins for entire body/main */
+
+
+
+/* * {
+    box-sizing: border-box;
+    width: 100%
+} */
