@@ -3,3 +3,55 @@
  - footer,
  - nav
  - sections, width for body */
+
+ /* section {
+    display: flex;
+    flex-direction: row;
+    
+    
+    flex-wrap: wrap;
+    
+  
+    justify-content: center;
+  
+    align-items: center; 
+ }  */
+
+ main{
+    width: 1060px;
+}
+header{
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    height: 200px;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+div{
+    width: 33%;
+    height: 100%;
+    margin: 50px;
+}
+
+img{
+    width: 250px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: blanchedalmond;
+
+}
