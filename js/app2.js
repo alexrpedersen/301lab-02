@@ -1,4 +1,7 @@
+
 'use strict'
+let getTemplate = $('#temp').html();
+let templateRender = Handlebars.compile(getTemplate);
 
 //array with all instances of animals from the page-1.json file
 let animalArray = [];
@@ -34,7 +37,7 @@ Gallery.prototype.renderAnimal = function () {
 
 
   // $.ajax to get the information from the page-1.json file
-  $.ajax('./data/page-1.json', {METHOD: 'GET', DATATYPE: 'JSON'})
+  $.ajax('./data/page-2.json', {METHOD: 'GET', DATATYPE: 'JSON'})
   .then(data => {
     //   console.log(data);
     data.forEach(animal => {
