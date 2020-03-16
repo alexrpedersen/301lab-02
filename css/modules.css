@@ -4,6 +4,14 @@
  - images */
 
 
- img {
-     width: 200px;
+
+ @import url('https://fonts.googleapis.com/css?family=Lemonada&display=swap');
+
+ h1{
+     font-family: 'Lemonada', cursive;
+     font-size: 30px;
+ }
+ 
+ h2{
+     text-align: center;
  }

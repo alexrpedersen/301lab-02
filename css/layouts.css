@@ -4,19 +4,6 @@
  - nav
  - sections, width for body */
 
- /* section {
-    display: flex;
-    flex-direction: row;
-    
-    
-    flex-wrap: wrap;
-    
-  
-    justify-content: center;
-  
-    align-items: center; 
- }  */
-
  main{
     width: 1060px;
 }
@@ -31,12 +18,9 @@ header{
 
 section{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 div{
     width: 33%;
