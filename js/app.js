@@ -42,6 +42,7 @@ Gallery.prototype.renderAnimal = function () {
         filter();
     })
     renderKeyword();
+    clickEvent();
   })
 
 
@@ -56,7 +57,7 @@ const newOptionArray = [];
 
 //function will take in the animalArray that has all instances of animals and filter to only unique keywords into the newOptionArray
 function filter (){
-  animalArray.forEach(keys => {
+  animalArray.sort().forEach(keys => {
     if (!newOptionArray.includes(keys.keyword)){
       newOptionArray.push(keys.keyword);
     }
