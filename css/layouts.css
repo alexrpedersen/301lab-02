@@ -3,3 +3,52 @@
  - footer,
  - nav
  - sections, width for body */
+
+main{
+    width: 1060px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    height: 200px;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+
+section{
+    width: 33%;
+    height: 100%;
+    margin: 50px;
+    position: relative;
+}
+div{
+    width: 33%;
+    height: 100%;
+    margin: 50px;
+    /* justify-content: center; 
+    align-items: center; */
+}
+
+/* h2 {
+    text-align: center;
+} */
+
+img{
+    width: 250px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: blanchedalmond;
+
+}

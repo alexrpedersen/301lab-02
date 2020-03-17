@@ -6,7 +6,15 @@
 
 
 
-/* * {
-    box-sizing: border-box;
-    width: 100%
-} */
+
+ @import url('https://fonts.googleapis.com/css?family=Lemonada&display=swap');
+ *{
+     box-sizing: border-box;
+     margin: auto;
+     font-family: 'Lemonada', cursive;
+   }
+/*  
+   div{
+     height: 200px;
+     width: 200px;
+   } */
